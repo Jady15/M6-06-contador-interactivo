@@ -1,0 +1,131 @@
+body {
+    background: #1f2937; 
+    font-family: 'Poppins', 'Verdana', sans-serif; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div {
+    max-width: 600px;
+    padding: 30px;
+    background: #f3f4f6;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #1f2937;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 12px;
+    font-size: 1.3rem;
+    border: 2px solid #f97316;
+    border-radius: 8px;
+    background: #fff;
+    color: #1f2937;
+    width: 150px;
+    margin: 10px 0;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #eab308;
+    box-shadow: 0 0 10px rgba(234, 179, 8, 0.5);
+}
+
+input[type="number"]::placeholder {
+    color: #6b7280; 
+    font-size: 1.1rem;
+    opacity: 1;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button:nth-child(2) {
+    background: #22c55e;
+    color: #fff;
+}
+
+button:nth-child(2):hover {
+    background: #16a34a;
+}
+
+button:nth-child(3) {
+    background: #f97316;
+    color: #fff;
+}
+
+button:nth-child(3):hover {
+    background: #ea580c;
+}
+
+button:nth-child(4) {
+    background: #3b82f6;
+    color: #fff;
+}
+
+button:nth-child(4):hover {
+    background: #2563eb;
+}
+
+button:nth-child(5) {
+    background: #7c3aed;
+    color: #fff;
+}
+
+button:nth-child(5):hover {
+    background: #6d28d9;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    background: #e5e7eb;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+li {
+    font-size: 1.1rem;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+li:nth-child(odd) {
+    background: #dcfce7; 
+}
+
+li:nth-child(even) {
+    background: #ffedd5; 
+}
